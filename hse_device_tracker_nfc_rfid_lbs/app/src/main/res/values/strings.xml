@@ -1,0 +1,8 @@
+<resources>
+
+<!-- NFC LOGIC --> 
+    <string name="app_name">HSE MedDev Tracker</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">HSE Medical Device Tracker NFC RFID LBS</string>
+	
+</resources>
