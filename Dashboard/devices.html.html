@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+ 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/libs/css/style.css">
+    <link rel="stylesheet" href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <title>BlockPirates</title>
+</head>
+
+<body>
+    <div class="dashboard-main-wrapper">
+        <div class="dashboard-header">
+            <nav class="navbar navbar-expand-lg bg-white fixed-top">
+                <a class="navbar-brand" href="home.html">BlockPirates</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto navbar-right-top">
+                        <li class="nav-item">
+                            <div id="custom-search" class="top-search-bar">
+                                <input class="form-control" type="text" placeholder="Search..">
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown notification">
+                            <a class="nav-link nav-icons" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-fw fa-bell"></i> <span class="indicator"></span></a>
+                            <ul class="dropdown-menu dropdown-menu-right notification-dropdown">
+                                <li>
+                                    <div class="notification-title"> Notification</div>
+                                    <div class="notification-list">
+                                        <div class="list-group">
+                                            <a href="#" class="list-group-item list-group-item-action active">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user"><span class="notification-list-user-name">Reveal LINQ (#3010) </span>owner changed to Keith O'Connell.
+                                                        <div class="notification-date">2 min ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user"><span class="notification-list-user-name">Dialyser (#1002) </span>owner changed to Block Hospital.
+                                                        <div class="notification-date">15 min ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user"><span class="notification-list-user-name">Electrocardiograph machine (#504) </span>owner changed to Keith Doyles.
+                                                        <div class="notification-date">29 min ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user"><span class="notification-list-user-name">Nebulizer(#601) </span>owner changed to Mark Kirby.
+                                                        <div class="notification-date">42 min ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-footer"> <a href="#">View all notifications</a></div>
+                                </li>
+                            </ul>
+                        </li>
+                       
+                        <li class="nav-item dropdown nav-user">
+                            <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/images/avatar-1.jpg" alt="" class="user-avatar-md rounded-circle"></a>
+                            <div class="dropdown-menu dropdown-menu-right nav-user-dropdown" aria-labelledby="navbarDropdownMenuLink2">
+                                <div class="nav-user-info">
+                                    <h5 class="mb-0 text-white nav-user-name">Igor Souza </h5>
+                                    <span class="status"></span><span class="ml-2">Available</span>
+                                </div>
+                                <a class="dropdown-item" href="#"><i class="fas fa-user mr-2"></i>Account</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-cog mr-2"></i>Setting</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-power-off mr-2"></i>Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+        <div class="nav-left-sidebar sidebar-dark">
+            <div class="menu-list">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="d-xl-none d-lg-none" href="#">Dashboard</a>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-divider">
+                                Menu
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#" aria-controls="submenu-1"><i class="fa fa-fw fa-user-circle"></i>Dashboard <span class="badge badge-success">6</span></a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="#" aria-controls="submenu-1"><i class="fa fa-fw fa-medkit"></i>Devices</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#" aria-controls="submenu-1"><i class="fa fa-fw fa-cogs"></i>Maintenance</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#" aria-controls="submenu-1"><i class="fa fa-fw fa-archive"></i>Replace</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#" aria-controls="submenu-1"><i class="fa fa-fw fa-cart-plus"></i>Purchases</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="dashboard-wrapper">
+            <div class="dashboard-ecommerce">
+                <div class="container-fluid dashboard-content ">
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="page-header">
+                                <h2 class="pageheader-title">BlockPirates</h2>
+                                <p class="pageheader-text">Dashboard Web Application</p>
+                                <div class="page-breadcrumb">
+                                    <nav aria-label="breadcrumb">
+                                        <ol class="breadcrumb">
+                                            <li class="breadcrumb-item active"><a href="#" class="breadcrumb-link">Devices</a></li>
+                                        </ol>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="ecommerce-widget">
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div class="card">
+                                    <h5 class="card-header">Devices</h5>
+                                    <div class="card-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead class="bg-light">
+                                                    <tr class="border-0">
+                                                        <th class="border-0">Device Number</th>
+                                                        <th class="border-0">Manufacturer</th>
+                                                        <th class="border-0">Location</th>
+                                                        <th class="border-0">Assembly Date</th>
+                                                        <th class="border-0">Serial Number</th>
+                                                        <th class="border-0">Owner</th>
+                                                        <th class="border-0">Active</th>
+                                                        <th class="border-0">Decomission Date</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td><label id="deviceNumber01"/></td>
+                                                        <td><label id="manufacturer01"/></td>
+                                                        <td><label id="locationData01"/></td>
+                                                        <td><label id="assemblyDate01"/></td>
+                                                        <td><label id="deviceSerialNumber01"/></td>
+                                                        <td><label id="owner01"/></td>
+                                                        <td><label id="active01"/></td>
+                                                        <td><label id="decomissionDate01"/></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><label id="deviceNumber02"/></td>
+                                                        <td><label id="manufacturer02"/></td>
+                                                        <td><label id="locationData02"/></td>
+                                                        <td><label id="assemblyDate02"/></td>
+                                                        <td><label id="deviceSerialNumber02"/></td>
+                                                        <td><label id="owner02"/></td>
+                                                        <td><label id="active02"/></td>
+                                                        <td><label id="decomissionDate02"/></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><label id="deviceNumber03"/></td>
+                                                        <td><label id="manufacturer03"/></td>
+                                                        <td><label id="locationData03"/></td>
+                                                        <td><label id="assemblyDate03"/></td>
+                                                        <td><label id="deviceSerialNumber03"/></td>
+                                                        <td><label id="owner03"/></td>
+                                                        <td><label id="active03"/></td>
+                                                        <td><label id="decomissionDate03"/></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><label id="deviceNumber04"/></td>
+                                                        <td><label id="manufacturer04"/></td>
+                                                        <td><label id="locationData04"/></td>
+                                                        <td><label id="assemblyDate04"/></td>
+                                                        <td><label id="deviceSerialNumber04"/></td>
+                                                        <td><label id="owner04"/></td>
+                                                        <td><label id="active04"/></td>
+                                                        <td><label id="decomissionDate04"/></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><label id="deviceNumber05"/></td>
+                                                        <td><label id="manufacturer05"/></td>
+                                                        <td><label id="locationData05"/></td>
+                                                        <td><label id="assemblyDate05"/></td>
+                                                        <td><label id="deviceSerialNumber05"/></td>
+                                                        <td><label id="owner05"/></td>
+                                                        <td><label id="active05"/></td>
+                                                        <td><label id="decomissionDate05"/></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><label id="deviceNumber06"/></td>
+                                                        <td><label id="manufacturer06"/></td>
+                                                        <td><label id="locationData06"/></td>
+                                                        <td><label id="assemblyDate06"/></td>
+                                                        <td><label id="deviceSerialNumber06"/></td>
+                                                        <td><label id="owner06"/></td>
+                                                        <td><label id="active06"/></td>
+                                                        <td><label id="decomissionDate06"/></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><label id="deviceNumber07"/></td>
+                                                        <td><label id="manufacturer07"/></td>
+                                                        <td><label id="locationData07"/></td>
+                                                        <td><label id="assemblyDate07"/></td>
+                                                        <td><label id="deviceSerialNumber07"/></td>
+                                                        <td><label id="owner07"/></td>
+                                                        <td><label id="active07"/></td>
+                                                        <td><label id="decomissionDate07"/></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><label id="deviceNumber08"/></td>
+                                                        <td><label id="manufacturer08"/></td>
+                                                        <td><label id="locationData08"/></td>
+                                                        <td><label id="assemblyDate08"/></td>
+                                                        <td><label id="deviceSerialNumber08"/></td>
+                                                        <td><label id="owner08"/></td>
+                                                        <td><label id="active08"/></td>
+                                                        <td><label id="decomissionDate08"/></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><label id="deviceNumber09"/></td>
+                                                        <td><label id="manufacturer09"/></td>
+                                                        <td><label id="locationData09"/></td>
+                                                        <td><label id="assemblyDate09"/></td>
+                                                        <td><label id="deviceSerialNumber09"/></td>
+                                                        <td><label id="owner09"/></td>
+                                                        <td><label id="active09"/></td>
+                                                        <td><label id="decomissionDate09"/></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><label id="deviceNumber10"/></td>
+                                                        <td><label id="manufacturer10"/></td>
+                                                        <td><label id="locationData10"/></td>
+                                                        <td><label id="assemblyDate10"/></td>
+                                                        <td><label id="deviceSerialNumber10"/></td>
+                                                        <td><label id="owner00"/></td>
+                                                        <td><label id="active10"/></td>
+                                                        <td><label id="decomissionDate10"/></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                             Copyright © 2019 BlockPirates.
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+    <!-- bootstap bundle js -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            getdevice('01');
+            getdevice('02');
+            getdevice('03');
+            getdevice('04');
+            getdevice('05');
+            getdevice('06');
+            getdevice('07');
+            getdevice('08');
+            getdevice('09');
+            getdevice('10');
+        });    
+
+        function getdevice(deviceid)
+        {
+            var body = '{"channel":"default","chaincode":"hse_bc_01","method":"readMedicalDevice","args":["'+deviceid+'"],"chaincodeVer":"v1"}';
+            console.log(body);
+            $.ajax(
+                {
+                    type: "POST",
+                    url: 'https://7b6551b4717c4825ac61471b09559da9.blockchain.ocp.oraclecloud.com/restproxy1/bcsgw/rest/v1/transaction/query',
+                    headers: {
+                        "Authorization": "Basic anVhcmV6LmJhcmJvc2FAb3JhY2xlLmNvbTpSZU50YUxAMUZvTGxZ"
+                    },
+                    data: body,
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data) {
+                        var result = data.result.payload;
+                        var parsed = JSON.parse(result);
+                        $("#deviceNumber"+deviceid).text(parsed.deviceNumber);
+                        $("#manufacturer"+deviceid).text(parsed.manufacturer);
+                        $("#model"+deviceid).text(parsed.model);
+                        $("#locationData"+deviceid).text(parsed.locationData);
+                        $("#assemblyDate"+deviceid).text(parsed.assemblyDate);
+                        $("#deviceSerialNumber"+deviceid).text(parsed.deviceSerialNumber);
+                        $("#owner"+deviceid).text(parsed.owner);
+                        $("#active"+deviceid).text(parsed.active);
+                        $("#decomissionDate"+deviceid).text(parsed.decomissionDate);
+                    },
+                    error: function (msg, url, line) {}
+                });
+        }
+    </script>
+
+
+</body>
+ 
+</html>
